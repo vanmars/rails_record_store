@@ -14,11 +14,6 @@ Follow-along lesson for Epicodus to practice creating a Rails app with a one-to-
 
 ## Setup/Installation Requirements
 
-To Extend This Project:
-* Clone this project using the `git clone` command in terminal.
-* Open the cloned repo in a text editor of your choice.
-
-Ruby - Console App
 - Navigate to the directory on your local computer where you would like to clone this repo.
 - Clone this repo using the `git clone` command in terminal/command line.
 - Navigate to the cloned folder and run `gem install bundler` to install Bundler, which will mange all gem installations for our project.
