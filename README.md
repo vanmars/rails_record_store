@@ -14,13 +14,15 @@ Follow-along lesson for Epicodus to practice creating a Rails app with a one-to-
 
 ## Setup/Installation Requirements
 
+- For this project, you will need Ruby. Follow the directions (here)[https://www.learnhowtoprogram.com/ruby-and-rails/getting-started-with-ruby/ruby-installation-and-setup] for setting up Ruby.
+- Install Rails on your machine with the following terminal command `gem install rails -v 5.2.0`
 - Navigate to the directory on your local computer where you would like to clone this repo.
 - Clone this repo using the `git clone` command in terminal/command line.
 - Navigate to the cloned folder and run `gem install bundler` to install Bundler, which will mange all gem installations for our project.
-- Run `bundle` or `bundle install` in your command line to download all dependencies. (If add additional gems later, you will need to run `bundle update <gem name>`.)
+- Run `bundle` or `bundle install` in your command line to download all dependencies. (If you add additional gems later, you will need to run `bundle update <gem name>`.)
 - Open the cloned repo in a text editor of your choice.
 - To Run Tests: While in the root directory of this project, run `rspec` in your command line.
-- To Run the App in Browser: While in the root directory of the project, run `ruby app.rb` in the terminal. This will start a server, which you can access by entering `localhost:4567` in your browser.
+- To Run the App in Browser: While in the root directory of the project, run `rails s` in the terminal. This will start a server, which you can access by entering `localhost:3000` in your browser.
 
 ## Known Bugs
 
