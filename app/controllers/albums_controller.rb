@@ -33,6 +33,7 @@ class AlbumsController < ApplicationController
   def update
     @album= Album.find(params[:id])
     if @album.update(album_params)
+      flash[:notice] = "Album successfully updated!"
       redirect_to albums_path
     else
       render :edit
@@ -42,6 +43,7 @@ class AlbumsController < ApplicationController
   def destroy
     @album = Album.find(params[:id])
     @album.destroy
+    flash[:notice] = "Album successfully deleted!"
     redirect_to albums_path
   end
 
